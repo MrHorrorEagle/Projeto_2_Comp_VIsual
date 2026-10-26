@@ -10,4 +10,4 @@ A opção escolhida para a realização desse projeto foi a 4, aplicação prát
 
 O Link para o vídeo se encontra aqui: [Link](Colocar aqui o Link)
 
-O executável se encontra presente nesse repositório com o nome mapa-bordas.exe, também se encontra o código em python usado para gerar o mesmo. Em caso de execução local, as bibliotecas necessárias para tal se encontram no cabeçalho do código.
+O código em python usado para gerar o software encontra-se nesse repositório com o nome mapa_bordas.py, o executável .exe ficou muito pesado, o que impossibilitou o upload do mesmo no github. Em caso de execução local, as bibliotecas necessárias para tal se encontram no cabeçalho do código.
