@@ -12,8 +12,6 @@ Dependências:
 
 Uso:
     python mapa_bordas.py
-
-Executável presente no repositório do projeto
 """
 
 import os
