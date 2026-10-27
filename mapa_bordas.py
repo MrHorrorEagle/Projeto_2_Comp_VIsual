@@ -12,6 +12,12 @@ Dependências:
 
 Uso:
     python mapa_bordas.py
+
+ou, para gerar executável:
+pyinstaller --onefile --windowed --name MapaBordas --hidden-import matplotlib.backends.backend_tkagg --hidden-import mpl_toolkits.mplot3d mapa_bordas.py
+
+Link para o repositório no github:
+https://github.com/MrHorrorEagle/Projeto_2_Comp_VIsual
 """
 
 import os
@@ -20,6 +26,8 @@ from tkinter import filedialog, messagebox
 
 import cv2
 import numpy as np
+import matplotlib
+matplotlib.use("TkAgg")  # força janelas via Tkinter (necessário no executável)
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D  
 
